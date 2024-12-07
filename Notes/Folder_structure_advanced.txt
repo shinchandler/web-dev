@@ -1,0 +1,41 @@
+/ (root)
+├── assets/                (folder for images, fonts, etc.)
+│   ├── images/            (subfolder for images)
+│   │   ├── logo.png
+│   │   └── background.jpg
+│   ├── fonts/             (subfolder for fonts)
+│   │   └── custom-font.ttf
+│   └── icons/             (subfolder for icons)
+│       ├── home-icon.svg
+│       └── search-icon.svg
+├── components/            (folder for reusable UI components)
+│   ├── header.html        (header component)
+│   ├── footer.html        (footer component)
+│   └── nav.html           (navigation component)
+├── pages/                 (folder for page-specific HTML files)
+│   ├── about.html
+│   ├── contact.html
+│   └── gallery.html
+├── styles/                (folder for CSS files)
+│   ├── base.css           (base styles)
+│   ├── layout.css         (layout-specific styles)
+│   └── theme.css          (theme or color-specific styles)
+├── scripts/               (folder for JavaScript files)
+│   └── main.js            (main JavaScript file)
+├── index.html             (your homepage HTML file)
+├── data/                  (optional folder for data files)
+│   ├── products.json
+│   └── blog-posts.json
+├── lib/ or vendor/        (optional folder for external libraries)
+│   ├── jquery.min.js
+│   └── bootstrap.min.css
+├── dist/ or build/         (optional folder for compiled production files)
+│   ├── index.html (minified)
+│   ├── styles.min.css
+│   └── scripts.min.js
+├── tests/                 (optional folder for unit tests)
+│   ├── home.test.js
+│   └── contact.test.js
+└── config/                (optional folder for configuration files)
+    ├── api-config.json
+    └── settings.json
