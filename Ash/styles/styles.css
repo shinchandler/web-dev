@@ -25,12 +25,18 @@ header{
 main{
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-bottom: 2px solid darkolivegreen;
 }
+.hero_section{
+    text-align: center;
+}
+.meet_ash, .what_ash_eats, .how_old_is_ash, .faq{
+    background:orange;
+    border-bottom: 2px solid darkolivegreen;
+
+} 
 footer{
+    background: #000;
+    height: 400px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 2px solid darkolivegreen;
 }
