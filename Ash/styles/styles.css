@@ -10,18 +10,28 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, header, nav, main, footer {
     padding: 0;
 }
 /*Styling the navigation links*/
-.nav-links{
-    color:darkolivegreen;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-}
-
 header{
-    padding-top: 20px;
-    padding-bottom: 20px;
     border-bottom: 2px solid darkolivegreen;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px; 
+}
+
+.nav-site-logo{
+    height: 50px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
 main{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -37,9 +47,18 @@ main{
 footer{
     background: #000;
     height: 400px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
+
 .footer-container{
     color: white;
+}
+
+.footer-links{
+   list-style: none;
+
+}
+
+.copyright{
+
 }
