@@ -25,10 +25,11 @@ nav{
     height: 50px;
 }
 
-.nav-links{
-    list-style: none;
-    display: flex;
-    gap: 20px;
+/* Navigation links */
+.nav-links {
+    list-style: none; /* Removes bullets */
+    display: flex;    /* Horizontally align items */
+    gap: 15px;        /* Adds space between links */
 }
 
 
