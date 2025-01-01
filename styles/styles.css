@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 /*For resetting styles(provided by broeser) of the commonly styled elemets*/
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, header, nav, main, footer {
@@ -27,6 +28,9 @@ nav{
 
 /* Navigation links */
 .nav-links {
+    a:hover{
+        color: #000;
+    }
     list-style: none; /* Removes bullets */
     display: flex;    /* Horizontally align items */
     gap: 15px;        /* Adds space between links */
@@ -58,6 +62,9 @@ footer {
 }
 .footer-links{
    list-style: none;
+   a:hover{
+    color: white;
+   }
 
 }
 .footer-bottom {
