@@ -9,22 +9,20 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, header, nav, main, footer {
     margin: 0;
     padding: 0;
 }
+
 /*Styling the navigation links*/
 header{
     border-bottom: 2px solid darkolivegreen;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:10px 20px; 
 }
-
 .nav-site-logo{
     height: 50px;
 }
-
 /* Navigation links */
 .nav-links {
     a:hover{
@@ -34,7 +32,6 @@ nav{
     display: flex;    /* Horizontally align items */
     gap: 15px;        /* Adds space between links */
 }
-
 
 main{
     padding-top: 20px;
@@ -48,11 +45,11 @@ main{
     border-bottom: 2px solid darkolivegreen;
 
 } 
+
 footer {
     background: #000; /* Black background */
     padding: 20px; /* Inner spacing */
 }
-
 .footer-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
