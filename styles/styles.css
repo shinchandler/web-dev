@@ -33,20 +33,17 @@ nav{
     gap: 15px;        /* Adds space between links */
 }
 
-main{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 .hero_section{
     text-align: center;
 }
-.meet_ash, .what_ash_eats, .how_old_is_ash, .faq{
-    background:orange;
-    border-bottom: 2px solid darkolivegreen;
-
-} 
-.address{
-    
+h1{
+    font-size: 86px;
+}
+h2{
+    font-size: 56px;
+}
+.section-container{
+    padding: 40px 80px;
 }
 
 footer {
