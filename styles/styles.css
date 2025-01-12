@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*For resetting styles(provided by broeser) of the commonly styled elemets*/
+/*For resetting styles(provided by browser) of the commonly styled elemets*/
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, header, nav, main, footer {
     margin: 0;
     padding: 0;
